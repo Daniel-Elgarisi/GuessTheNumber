@@ -7,7 +7,6 @@ import GameOverScreen from '../GuessTheNumber/screens/GameOverScreen'
 import StartGameScreen from './screens/StartGameScreen';
 import GameScreen from './screens/GameScreen';
 
-
 export default function App() {
   const [userNumber, setUserNumber] = useState();
   const [gameIsOver, setGameOver] = useState(true);
